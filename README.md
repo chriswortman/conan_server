@@ -5,10 +5,16 @@ Currently hosting conan exiles on my windows machine, and it is kind of not grea
 
 Still very WIP... 
 
+# QuickStart
+The base of our setup with be an ubuntu 18.04 machine, running the following:
+- Conan Exiles (game server)
+- Netdata (host monitoring)
+- Discord bot (python/go?, docker container most likely)
 
 ## Links
-https://github.com/lazypower/docker-conanexiles
-https://github.com/Sixxgunz/conanexiles_scripts/
+https://github.com/alinmear/docker-conanexiles  
+https://github.com/lazypower/docker-conanexiles  
+https://github.com/Sixxgunz/conanexiles_scripts/  
 
 
 #

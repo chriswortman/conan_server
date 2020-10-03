@@ -5,11 +5,11 @@ services:
     image: alinmear/docker-conanexiles
     restart: always
     environment:
-        - "CONANEXILES_ServerSettings_ServerSettings_AdminPassword=ThanksForThisSmartSolution"
-        - "CONANEXILES_Engine_OnlineSubSystemSteam_ServerName='My Cool Server'"
-        - "CONANEXILES_Engine_OnlineSubSystemSteam_ServerPassword=MySecret"
+        - "CONANEXILES_ServerSettings_ServerSettings_AdminPassword=temp_pass"
+        - "CONANEXILES_Engine_OnlineSubSystemSteam_ServerName='RP Trucks only"
+        - "CONANEXILES_Engine_OnlineSubSystemSteam_ServerPassword=temp_pass"
     ports:
-        - 7779:7777/udp
+        - 7777:7777/udp
         - 7778:7778/udp
         - 27015:27015/udp
     volumes:
