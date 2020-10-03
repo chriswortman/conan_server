@@ -1,0 +1,12 @@
+---
+- hosts: 127.0.0.1
+  connection: local
+  vars:
+  tasks:
+      - name: Setup | Install Apt utilities
+        apt:
+          name: "{{ item }}"
+          state: present
+        loop:
+          - unzip
+          - screen
